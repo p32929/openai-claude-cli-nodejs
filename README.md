@@ -10,6 +10,10 @@ A lightweight Node.js server that provides an OpenAI-compatible API interface fo
 - **Simple Setup**: No dependencies, pure Node.js implementation
 - **Stateless Design**: Each request is independent, no session management
 
+## Limitations
+
+- **No Tool/Function Calling**: Tool and function calling features are not supported
+
 ## Prerequisites
 
 - Node.js (v14 or higher)
