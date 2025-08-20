@@ -1,0 +1,14 @@
+{
+  "name": "openai-compatible-claude",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "tunnel": "node server.js & cloudflared tunnel --url http://localhost:${PORT:-8000}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "OpenAI-compatible API proxy for Claude CLI"
+}
